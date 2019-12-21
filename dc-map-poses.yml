@@ -68,7 +68,7 @@ services:
                 environment:
                         - ROS_HOSTNAME=ros-mb-movebase
                         - ROS_MASTER_URI=http://ros-master:11311
-                command: /run-shells/run-movebase-map-sim.sh
+                command: /run-shells/run-movebase-teb-map-sim.sh
 
         ros-accuracy:
                 image: repohub.enterpriselab.ch:5002/kawa/ros-kinetic-accuracy:latest
